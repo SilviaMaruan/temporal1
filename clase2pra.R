@@ -2,12 +2,12 @@
 
 # Determinar una distribucion de la verdadera poblacion
 rm(list=ls())
-x1 <- rnorm(10000, 4,3) 
+x1 <- rnorm(450, 4,3) 
 plot(density(x1))
 
 plot(ecdf(x1))
 
-x2 <- rgamma(10000,2,1.5)
+x2 <- rgamma(500,2,1.5)
 
 plot(density(x2))
 plot(ecdf(x2))
